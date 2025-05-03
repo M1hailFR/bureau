@@ -1,0 +1,31 @@
+@layer base {
+  html {
+    @apply h-auto scroll-smooth;
+    scroll-padding-top: 84px;
+  }
+
+  body {
+    @apply min-h-dvh font-sans text-sm lg:text-lg overflow-x-hidden;
+  }
+  .ui-scrollbars ::-webkit-scrollbar {
+    @apply bg-transparent w-2 h-2 rounded;
+  }
+
+  .ui-scrollbars ::-webkit-scrollbar-track {
+    @apply bg-neutral;
+  }
+
+  .ui-scrollbars ::-webkit-scrollbar-thumb {
+    @apply bg-neutral2/70  transition-all duration-150;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .ui-scrollbars ::-webkit-scrollbar-thumb:hover {
+    @apply bg-neutral2/10 transition-all duration-150;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
+}
+
+@utility container {
+  @apply mx-auto px-4 lg:px-6 box-border;
+}

@@ -1,0 +1,17 @@
+@theme {
+  --font-sans: "Noto Sans", "sans-serif";
+  
+  --color-brand: #FDC300;
+  --color-secondary: #7873ff;
+  --color-neutral: #fff;
+  --color-neutral2: #000;
+  --color-neutral3: #71717a;
+  --color-neutral4: #a1a1aa;
+
+  --breakpoint-xs: 320px;
+  --breakpoint-sm: 480px;
+  --breakpoint-md: 760px;
+  --breakpoint-lg: 960px;
+  --breakpoint-xl: 1280px;
+  --breakpoint-2xl: 1440px;
+}
