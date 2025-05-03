@@ -59,8 +59,8 @@
 import { type IFieldsProps } from "~/core/types/components";
 import { type IHeaderDefaultProps } from "./shared";
 import { CornerDownRight } from "lucide-vue-next";
-import gsap from "gsap";
-import ScrollTrigger from "gsap/ScrollTrigger";
+import { gsap } from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
 gsap.registerPlugin(ScrollTrigger);
 
 defineOptions({

@@ -41,7 +41,7 @@
 import { type IFieldsProps } from "~/core/types/components";
 import { type IBlockHeroMainSliderProps } from "./shared";
 
-import gsap from "gsap";
+import { gsap } from "gsap";
 
 defineOptions({
   name: "BlockHeroeMainSlider",

@@ -4,7 +4,7 @@ import { cn } from "@/lib/utils";
 import { Primitive, type PrimitiveProps } from "reka-ui";
 import { type ButtonVariants, buttonVariants } from ".";
 import { ref, nextTick } from "vue";
-import gsap from "gsap";
+import { gsap } from "gsap";
 
 interface Props extends PrimitiveProps {
   variant?: ButtonVariants["variant"];
